@@ -7,7 +7,9 @@ int main(){
 
     cin >> a >> b;
 
-    cout << "Multiply of " << a << " and " << b << " is => " << a*b << endl;
+    int ans=a*b;
+
+    cout << "Multiply of " << a << " and " << b << " is => " << ans << endl;
 
     return 0;
 }
